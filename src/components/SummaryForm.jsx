@@ -14,14 +14,14 @@ const SummaryForm = () => {
         />
         <span>I agree to Terms and Conditions</span>
       </div>
-      <ComfirmBtn disabled={!checked}>Comfirm order</ComfirmBtn>
+      <ConfirmBtn disabled={!checked}>Comfirm order</ConfirmBtn>
     </div>
   );
 };
 
 export default SummaryForm;
 
-const ComfirmBtn = styled.button`
+const ConfirmBtn = styled.button`
   padding: 8px;
   margin-top: 10px;
 `;
